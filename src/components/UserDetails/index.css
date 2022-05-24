@@ -4,10 +4,12 @@
   border-left: 1px solid #cbd5e1;
   border-bottom: 1px solid #cbd5e1;
   border-right: 1px solid #cbd5e1;
+  border-top: 1px solid #cbd5e1;  
+  margin-top: 30px;
 }
 
-.table-cell {
-  color: #1e293b;
+.table {
+  color: white;
   font-family: 'Roboto';
   font-size: 16px;
   margin-left: 32px;
@@ -21,14 +23,18 @@
 
 .mobile-no-column {
   flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
 }
 
-.mobile-no-value {
+.location{
   flex-grow: 1;
+  color: white;
 }
 .delete {
-border: 2px black solid;
-background-color:red;
+border: 2px red solid;
+background-color:black;
+color: white;
 padding: 5px;
 margin: 5px;
 margin-left: 5px;

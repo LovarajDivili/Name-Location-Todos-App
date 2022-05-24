@@ -51,21 +51,27 @@ class App extends Component {
         <div className="responsive-container">
           <h1 className="heading">USER DETAILS</h1>
           <form className="contact-form-container" onSubmit={this.onAddContact}>
-            <input
-              value={name}
-              onChange={this.onChangeName}
-              className="input"
-              placeholder="Enter Your Name"
-            />
-            <input
-              className="input"
-              value={location}
-              onChange={this.onChangeLocation}
-              placeholder="Enter Your Location"
-            />
-            <button type="submit" className="button">
-              Add User
-            </button>
+            <div className="Input">
+              <input
+                value={name}
+                onChange={this.onChangeName}
+                className="input"
+                placeholder="Enter Your Name"
+              />
+            </div>
+            <div className="Input">
+              <input
+                className="input"
+                value={location}
+                onChange={this.onChangeLocation}
+                placeholder="Enter Your Location"
+              />
+            </div>
+            <div>
+              <button type="submit" className="button">
+                Add User
+              </button>
+            </div>
           </form>
           <ul className="contacts-table">
             <li className="table-header">

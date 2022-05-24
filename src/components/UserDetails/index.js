@@ -10,11 +10,11 @@ const UserDetails = props => {
 
   return (
     <li className="table-row">
-      <div className="table-cell name-column">
+      <div className="table name-column">
         <p>{name}</p>
       </div>
       <hr className="separator" />
-      <div className="table-cell mobile-no-column">
+      <div className="table mobile-no-column">
         <p className="mobile-no-value">{location}</p>
         <button className="delete" onClick={onDeleteUser}>
           DELETE
